@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-BASE_URL = "https://jbzd.com.pl/oczekujące/"
+BASE_URL = "https://jbzd.com.pl/oczekujace/"
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 
 start_page = 86667

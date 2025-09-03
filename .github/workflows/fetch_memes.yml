@@ -22,7 +22,7 @@ jobs:
           pip install requests beautifulsoup4
 
       - name: Run fetch script
-        run: python jbzd-memes-data-1.py # zmień w repo2 i repo3 odpowiednio
+        run: python jbzd-memes-data-3.py # zmień w repo2 i repo3 odpowiednio
 
       - name: Commit CSV
         run: |

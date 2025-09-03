@@ -9,7 +9,7 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 
 start_page = 86667
 end_page = 130000
-folder = r"C:\jbzd-memes-data-3"
+folder = r"C:\jbzd-memes-data-1"
 csv_file = os.path.join(folder, f"memes_{start_page}_{end_page}.csv")
 
 os.makedirs(folder, exist_ok=True)
